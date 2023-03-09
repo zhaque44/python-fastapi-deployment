@@ -1,0 +1,15 @@
+apiVersion: skaffold/v2beta10
+kind: Config
+metadata:
+  name: fastapi-skaffold-debug
+build:
+  artifacts:
+  - image: app
+    context: .
+    docker:
+      dockerfile: Dockerfile
+
+deploy:
+  kubectl:
+    manifests:
+      - app.yml
