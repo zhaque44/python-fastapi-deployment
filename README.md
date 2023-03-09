@@ -37,4 +37,4 @@ Make a request.
 curl localhost:9000
 ```
 
-And 🎉! Now you're able to debug the campaigns-service inside the running pod.
+And 🎉! Now you're able to debug your service inside the running pod.
